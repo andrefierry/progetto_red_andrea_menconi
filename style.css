@@ -1,0 +1,27 @@
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+header{
+    background: url(./media/mountains2.png), linear-gradient(rgb(255,255,255),rgba(255, 255, 255, 0)), url(./media/switzerland-862870_1920.jpg);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.lorem{
+    background-color: #ececec;
+
+}
+
+.icone{
+    color: darkred;
+    font-size: 30pt !important;
+}
+
+.card{
+    border: 0;
+    border-bottom: 5px solid darkred;
+    background-color: #ececec;
+}
