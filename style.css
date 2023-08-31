@@ -20,8 +20,42 @@ header{
     font-size: 30pt !important;
 }
 
-.card{
-    border: 0;
-    border-bottom: 5px solid darkred;
-    background-color: #ececec;
+.bottone{
+    background-color: darkred;
+    color: white;
+}
+
+.div-bottone{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./media/trees2.png), #ececec;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-lista-dx{
+    background: url(./media/single.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.immagine-rotonda{
+    height: 85px;
+    width: 85px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.div-rotondo{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: solid 2px darkred;
+    border-radius: 50%;
 }
